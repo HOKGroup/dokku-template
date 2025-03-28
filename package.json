@@ -9,7 +9,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "pnpm docs:dev",
+    "start": ".\\node_modules\\.bin\\vuepress dev docs -p 5000",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
     "docs:dev": "vuepress dev docs -p 5000",
