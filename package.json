@@ -15,6 +15,9 @@
     "docs:dev": "vuepress dev docs -p 5000",
     "docs:update-package": "pnpm dlx vp-update"
   },
+  "peerDependencies": {
+    "vue": "^3.5.13"
+  },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/theme-default": "2.0.0-rc.88",
